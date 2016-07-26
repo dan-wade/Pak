@@ -21,7 +21,7 @@ Such arrays have an additional
 	~25% performance cost if intrinsics are available (VS, GCC, and Clang)
 	~250% performance cost if intrinsics are not available
 
-### Example Usage
+### Example
 Pak can take a bunch of variables...
 
 		float f = 0.2f;
@@ -48,7 +48,7 @@ Pak can take a bunch of variables...
 
 		Pak p(f, s, nested, staticArray, manager);
 
-At which point can save it to disk or send it over the interwebs
+At which point you can save it to disk or send it over the interwebs
 
 		someSocket.send(p.data(), p.size());
 
